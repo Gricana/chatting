@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'react/static/css/main.f855e6bc.css' %}">
+</head>
+<body>
+    <h1>Room: {{ room_name }}</h1>
+    <div id="chat-root"></div>
+    <div id="room-name">{{ room_name }}</div>
+    <script src="{% static 'react/static/js/main.977b9864.js' %}"></script>
+</body>
+</html>
